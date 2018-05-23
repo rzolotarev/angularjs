@@ -40,7 +40,7 @@ class ProductListCtrl implements IProductListModel {
         newProduct.price = newProduct.calculateDiscount(10);
         this.products.push(newProduct);
     }
-    
+
     toggleImage() :void {
         this.showImage = !this.showImage;
     }

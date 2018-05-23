@@ -1,5 +1,4 @@
 var app;
 (function (app) {
-    angular.module("productManagement", [])
-        .controller("ProductList", ["productResource",]);
+    angular.module("productManagement", []);
 })(app || (app = {}));
