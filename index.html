@@ -1,0 +1,17 @@
+<html>
+    <head>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+        crossorigin="anonymous">
+    </head>
+    <body ng-app="productManagement">
+        <div>
+            <div ng-include="'app/products/productListView.html'"></div>
+        </div>
+        
+        <script src="scripts/angular.js"></script>
+        
+        <script src="app/products/productListCtrl.js"></script>
+        <script src="app/products/product.js"></script>
+    </body>
+</html>
